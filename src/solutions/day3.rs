@@ -67,7 +67,12 @@ pub fn solver_part2() -> Result<u64, Error> {
         let ones = carbon.iter().fold(0, |x, y| x + y[i]);
         let length = carbon.len() as u64;
         let zeros = length - ones;
-        carbon = carbon.into_iter().filter(|x| x[i] == (zeros <= length/2) as u64).collect();
+        if zeros <= (length as f64/2.0).ceil() as u64 {
+            carbon = carbon.into_iter().filter(|x| x[i] == 1).collect();
+        }
+        else {
+            carbon = carbon.into_iter().filter(|x| x[i] == 0).collect();
+        }
         i += 1;
     }
 
