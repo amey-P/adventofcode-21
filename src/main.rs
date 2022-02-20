@@ -57,54 +57,54 @@ fn main() {
         Err(e) => println!("Day7-Pt2 Error: {:?}", e),
         Ok(solution) => println!("Day 7 - Part2 answer: {}", solution),
     };
-    // match solutions::day8::solver_part1() {
-    //     Err(e) => println!("Day8-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 8 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day8::solver_part2() {
-    //     Err(e) => println!("Day8-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 8 - Part2 answer: {}", solution),
-    // };
-    // match solutions::day9::solver_part1() {
-    //     Err(e) => println!("Day9-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 9 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day9::solver_part2() {
-    //     Err(e) => println!("Day9-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 9 - Part2 answer: {}", solution),
-    // };
-    // match solutions::day10::solver_part1() {
-    //     Err(e) => println!("Day10-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 10 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day10::solver_part2() {
-    //     Err(e) => println!("Day10-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 10 - Part2 answer: {}", solution),
-    // };
-    // match solutions::day11::solver_part1() {
-    //     Err(e) => println!("Day11-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 11 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day11::solver_part2() {
-    //     Err(e) => println!("Day11-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 11 - Part2 answer: {}", solution),
-    // };
-    // match solutions::day12::solver_part1() {
-    //     Err(e) => println!("Day12-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 12 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day12::solver_part2() {
-    //     Err(e) => println!("Day12-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 12 - Part2 answer: {}", solution),
-    // };
-    // match solutions::day13::solver_part1() {
-    //     Err(e) => println!("Day13-Pt1 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 13 - Part1 answer: {}", solution),
-    // };
-    // match solutions::day13::solver_part2() {
-    //     Err(e) => println!("Day13-Pt2 Error: {:?}", e),
-    //     Ok(solution) => println!("Day 13 - Part2 answer: {}", solution),
-    // };
+    match solutions::day8::solver_part1() {
+        Err(e) => println!("Day8-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 8 - Part1 answer: {}", solution),
+    };
+    match solutions::day8::solver_part2() {
+        Err(e) => println!("Day8-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 8 - Part2 answer: {}", solution),
+    };
+    match solutions::day9::solver_part1() {
+        Err(e) => println!("Day9-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 9 - Part1 answer: {}", solution),
+    };
+    match solutions::day9::solver_part2() {
+        Err(e) => println!("Day9-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 9 - Part2 answer: {}", solution),
+    };
+    match solutions::day10::solver_part1() {
+        Err(e) => println!("Day10-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 10 - Part1 answer: {}", solution),
+    };
+    match solutions::day10::solver_part2() {
+        Err(e) => println!("Day10-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 10 - Part2 answer: {}", solution),
+    };
+    match solutions::day11::solver_part1() {
+        Err(e) => println!("Day11-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 11 - Part1 answer: {}", solution),
+    };
+    match solutions::day11::solver_part2() {
+        Err(e) => println!("Day11-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 11 - Part2 answer: {}", solution),
+    };
+    match solutions::day12::solver_part1() {
+        Err(e) => println!("Day12-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 12 - Part1 answer: {}", solution),
+    };
+    match solutions::day12::solver_part2() {
+        Err(e) => println!("Day12-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 12 - Part2 answer: {}", solution),
+    };
+    match solutions::day13::solver_part1() {
+        Err(e) => println!("Day13-Pt1 Error: {:?}", e),
+        Ok(solution) => println!("Day 13 - Part1 answer: {}", solution),
+    };
+    match solutions::day13::solver_part2() {
+        Err(e) => println!("Day13-Pt2 Error: {:?}", e),
+        Ok(solution) => println!("Day 13 - Part2 answer: {}", solution),
+    };
     // match solutions::day14::solver_part1() {
     //     Err(e) => println!("Day14-Pt1 Error: {:?}", e),
     //     Ok(solution) => println!("Day 14 - Part1 answer: {}", solution),
